@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Quicksand&display=swap');
+body {
+    font-family:'Poppins', 'Montserrat', 'Quicksand', sans-serif;
+    font-size: 90%;
+    background-color: azure;
+    color: #404040;
+    /* opacity: 0.9; */
+}
+
+.info_text p {
+font-size: 110%;
+font-weight:normal;
+}

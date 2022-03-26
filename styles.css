@@ -7,10 +7,9 @@
 body {
     font-family:'Poppins', 'Montserrat', 'Quicksand', sans-serif;
     font-size: 90%;
-    background-color:
-    color: #F8F8FF;
-    /* opacity: 0.9; */
-}
+    background-color:#F8F8FF;
+    color:#393939;
+ }
 
 .container {
     max-width: 750px;

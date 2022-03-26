@@ -28,7 +28,7 @@
 <div class="main">
   
   
- <div><img src="my.jpg" alt="My photo" width="150" class="picture"> </div>
+ <img src="my.jpg" alt="My photo" width="150" class="picture"> 
 
   <div class="main_text" id="AboutMe">
   <h2>Svetlana Pozina</h2>  
@@ -97,22 +97,26 @@
  <a href="https://t.me/altraestate" target="_blanc">Telegram</a> || <a href="https://vk.com/altraestate" target="_blanc">VK</a> 
 </div>
 
-<div class="info" id="ContactMe">
+<form class="info" id="ContactMe">
  <h3>Contact me</h3>
-<div>
+<div class="contacts_union">
+<div class="contacts">
     <label for="your_name">Your name</label>
+    <br>
     <input type="text" id="your_name" placeholder="Type your name">
 </div>
-<div>
+<div class="contacts">
     <label for="email">E-mail</label>
+    <br>
     <input type="email" id="email" placeholder="Type your e-mail">
 </div>
+</div> 
 <div>
     <label for="message">Message</label>
-    <input type="textarea" id="message" placeholder="Type the message">
+    <textarea id="message" placeholder="Type the message" rows="5" cols="100%"></textarea>
 </div>
 <button type="submit" class="btn">Send</button>
-</div>
+</form>
 
 
 </body>

@@ -3,48 +3,89 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-margin-top: 1em;
 }
 body {
-    font-family:'Poppins', 'Montserrat', 'Quicksand', sans-serif;
+    font-family:'Poppins','Quicksand','Montserrat',   sans-serif;
     font-size: 90%;
     background-color:#F8F8FF;
     color:#393939;
- }
+  }
 
-/* .container {
+.navbar {
+    background-color: #F8F8FF;
     max-width: 750px;
-    margin: auto;
-} */
-
-.picture {
-    border-radius: 7px;  
-    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
-    box-sizing: content-box;
+    margin: 0 auto; 
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
 }
 
-.main_picture {
+.navbar ul {
+    list-style: none;
+    display: flex; 
+}
+
+.navbar ul li {
+ width: 20%;
+ }
+
+ .navlink {
+    background-color: #fff;   
+    border: solid rgb(223, 223, 253) 1px;
+    padding: 1em 0 1em 0;
+    width: 100%;
+    box-sizing: content-box;
+    text-align: center;
+    }
+
+
+.navlink:hover {
+    background-color: aliceblue;
+    color: cornflowerblue;
+}
+
+ /* .container {
+    max-width: 750px;
+    margin: auto;
+}   */
+
+.main {
+    display: flex;
     max-width: 750px;
     margin: 1% auto;   
     box-sizing: content-box;
 }
 
+.picture {
+    border-radius: 7px;  
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.25);
+    box-sizing: content-box;
+ }
+
+
 .main_text {
 font-size: 110%;
-font-weight:normal;
 background-color:rgba(220, 220, 220, 0.5);
 border-radius: 15px;
 padding: 2%;
-max-width: 750px;
-margin: 1% auto;
-box-sizing: content-box;
+margin-left: 5%;
+
 }
 
 .info {
+    background-color:rgba(220, 220, 220, 0.5);
+    border-radius: 15px;
+    padding: 2%;
+    max-width: 750px;
+    margin: 1% auto;
+    box-sizing: content-box;
     font-size: 90%;    
 }
 
 .list {
-    margin-left: 2em;
+    margin: 0;
+    padding: 0;
 }
 
 h3, h2 {
@@ -56,7 +97,7 @@ a {
     text-decoration: none;
     font-weight: bold;
     font-size: 100%;
-}
+ }
 
 a:hover {
 color:darkgreen;
@@ -80,3 +121,16 @@ a:active {
     font-size: 105%;
     margin:2px;
 } 
+
+table {
+    width: 100%;
+}
+
+table tr:nth-child(even) {
+    background-color:#F8F8FF;
+}
+
+table thead {
+    text-align: left;
+ }
+

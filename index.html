@@ -11,14 +11,26 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container"></div>
+
+<nav class="navbar">
+
+    <ul>
+        <li><a href="#AboutMe"><div class="navlink">About me</div></a></li>
+        <li><a href="#WorkExperience"><div class="navlink">Work experience</div></a></li>
+        <li><a href="#MyHobbies"><div class="navlink">My hobbies</div></a></li>
+        <li><a href="#MyContacts"><div class="navlink">My contacts</div></a></li>
+        <li><a href="#ContactMe"><div class="navlink">Contact me</div></a></li>
+    </ul>
+</nav>
+
 
 <div class="main">
   
   
-   <div class="main_picture"><img src="my.jpg" alt="My photo" width="150" class="picture"> </div>
+ <div><img src="my.jpg" alt="My photo" width="150" class="picture"> </div>
 
-  <div class="main_text">
+  <div class="main_text" id="AboutMe">
   <h2>Svetlana Pozina</h2>  
     <p>
     I learned information security at the <em>Polytechnic University in St. Petersburg</em>.
@@ -33,7 +45,7 @@
 
 </div>
 
-<div class="main_text info">
+<div class="info" id="WorkExperience">
   <h3>Work experience:</h3>
   <table>
 <thead>
@@ -69,7 +81,7 @@
   </table>
 </div>
 
-<div class="main_text info">
+<div class="info" id="MyHobbies">
   <h3>My hobbies:</h3>
   <div class="list">
   <ul>
@@ -80,12 +92,12 @@
 </div>
 </div>
 
-<div class="main_text info">
+<div class="info" id="MyContacts">
   <h3> <strong> My contacts:</strong></h3>
  <a href="https://t.me/altraestate" target="_blanc">Telegram</a> || <a href="https://vk.com/altraestate" target="_blanc">VK</a> 
 </div>
 
-<div class="main_text info">
+<div class="info" id="ContactMe">
  <h3>Contact me</h3>
 <div>
     <label for="your_name">Your name</label>
@@ -102,7 +114,6 @@
 <button type="submit" class="btn">Send</button>
 </div>
 
-</div>
 
 </body>
 </html>

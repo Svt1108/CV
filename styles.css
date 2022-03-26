@@ -174,7 +174,7 @@ table thead {
  }
 
 
- @media (max-width: 570px) {
+ @media ((max-width: 750px) and (orientation: landscape)), (max-width: 570px) {
 
     .contacts {
         display: inline-block;

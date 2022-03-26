@@ -19,28 +19,29 @@ body {
     margin: 0 auto; 
     position: -webkit-sticky;
     position: sticky;
-    top:0;
-    height: 100%;
+    
 }
 
 .navbar ul {
     list-style: none;
     display: flex; 
+    align-items: center;
 }
 
 .navbar ul li {
  width: 20%;
-
- }
+ 
+  }
 
  .navlink {
     background-color: #fff;   
     border: solid rgb(223, 223, 253) 1px;
-    padding: 1em 0 1em 0;
+    padding: 1em 0;
     width: 100%;
     box-sizing: content-box;
     text-align: center;
-    }
+    height: 100%;
+         }
 
 
 .navlink:hover {
@@ -172,3 +173,33 @@ table thead {
     text-align: left;
  }
 
+
+ @media (max-width: 570px) {
+
+    .contacts {
+        display: inline-block;
+        width: 40%;
+    }
+
+    a {
+        color:darkblue;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 90%;
+     }
+
+     .navbar ul li {
+        width: 20%;
+        height: 25px;
+         }
+
+     .main {
+            display:flex;
+            max-width: 750px;
+            margin: 1% auto;   
+            box-sizing: content-box;
+            margin-top: 25px;
+        }
+        
+         
+ }

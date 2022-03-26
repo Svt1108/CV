@@ -20,6 +20,7 @@ body {
     position: -webkit-sticky;
     position: sticky;
     top:0;
+    height: 100%;
 }
 
 .navbar ul {
@@ -29,7 +30,7 @@ body {
 
 .navbar ul li {
  width: 20%;
- height: 100%;
+
  }
 
  .navlink {
@@ -100,7 +101,7 @@ box-sizing: content-box;
 
 .contacts {
     display: inline-block;
-    width: 49%;
+    width: calc(50% - 8px);
 }
 
 .contacts input {

@@ -159,6 +159,16 @@ a:active {
     width: 10em;
 }
 
+.scale {
+    border-radius: 5px;
+    height: 13em;
+    transition: 1s; 
+    margin: 0.5em;
+   }
+
+   .scale:hover {
+    transform: scale(3); 
+   }
 
 .btn {
     background-color: darkblue;

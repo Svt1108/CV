@@ -87,9 +87,9 @@ box-sizing: content-box;
     background-color:#C6D7F9;
     border-radius: 15px;
     padding: 1%;
-    max-width: 750px;
+    max-width: 724px;
     margin: 1% auto;
-    box-sizing: content-box;
+    box-sizing:content-box;
     font-size: 100%;  
 }
 

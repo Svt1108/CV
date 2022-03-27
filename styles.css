@@ -156,6 +156,12 @@ a:active {
     color:cadetblue;
 } */
 
+.imagelink {
+    border-radius: 20px;
+    width: 17%;
+}
+
+
 .btn {
     background-color: darkblue;
     color: #F8F8FF;

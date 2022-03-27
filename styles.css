@@ -9,17 +9,20 @@ body {
     font-family:'Poppins','Quicksand','Montserrat',   sans-serif;
     /* font-size: 90%; */
     background-color:#F8F8FF;
-    color:#393939;
-    font-size: 14px;;
+    /* color:#393939; */
+    color: darkblue;
+    font-size: 14px;
+    background-image: url(background.jpg);
+    
   }
 
 .navbar {
-    background-color: #F8F8FF;
+    background-color: #D8F4EC;
     max-width: 750px;
     margin: 0 auto; 
     position: -webkit-sticky;
     position: sticky;
-    
+    top:0;
 }
 
 .navbar ul {
@@ -34,7 +37,7 @@ body {
   }
 
  .navlink {
-    background-color: #fff;   
+    background-color: #D8F4EC;  
     border: solid rgb(223, 223, 253) 1px;
     padding: 1em 0;
     width: 100%;
@@ -59,7 +62,7 @@ body {
     max-width: 750px;
     margin: 1% auto;   
     box-sizing: content-box;
-}
+  }
 
 .picture {
     border-radius: 7px;  
@@ -71,7 +74,7 @@ body {
 
 .main_text {
 font-size: 105%;
-background-color:rgba(220, 220, 220, 0.5);
+background-color:#F2F2F2;
 border-radius: 15px;
 padding: 2%;
 margin-left: 5%;
@@ -80,15 +83,19 @@ box-sizing: content-box;
 }
 
 .info {
-    background-color:rgba(220, 220, 220, 0.5);
+    /* background-color:rgba(235, 234, 234, 0.7); */
+    background-color:#C6D7F9;
     border-radius: 15px;
-    padding: 2%;
+    padding: 1%;
     max-width: 750px;
     margin: 1% auto;
     box-sizing: content-box;
     font-size: 100%;  
 }
 
+.cont {
+    background-color:#F2F2F2;
+}
 
 .contacts_union {
     display: inline-block;
@@ -106,7 +113,7 @@ box-sizing: content-box;
 }
 
 .contacts input {
-    background-color: rgb(223, 223, 253);
+    background-color: #fff;
     outline:none;
     width: 100%;
     border: solid 1px #aca9a9;
@@ -114,7 +121,7 @@ box-sizing: content-box;
 
 
 .info textarea {
-    background-color: rgb(223, 223, 253);
+    background-color: #fff;
     outline:none;
     width: 100%;
     border: solid 1px #aca9a9;
@@ -131,7 +138,7 @@ h3, h2 {
 }
 
 a {
-    color:darkblue;
+    color:rgb(1, 1, 173);
     text-decoration: none;
     font-weight: bold;
     font-size: 100%;

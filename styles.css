@@ -231,6 +231,13 @@ table thead {
             margin: 1% auto;
             box-sizing:content-box;
             font-size: 100%;  
-        }       
+        }   
+        
+        .scale {
+            border-radius: 2px;
+            height: 8em;
+            transition: 1s; 
+            margin: 0.2em;
+           }        
          
  }

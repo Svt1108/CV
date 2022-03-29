@@ -9,7 +9,7 @@ document.addEventListener( 'click', (e) => {
 
     else {
 
-    if (Element.style.height === '8em')  {Element.style.transform = 'scale(3)'; Element.style.position = 'absolute'; Element.style.left = '0'; 
+    if (window.matchMedia("only screen and (max-width: 750px)").matches)  {Element.style.transform = 'scale(3)'; Element.style.position = 'absolute'; Element.style.left = '0'; 
     Element.style.right = '0'; Element.style.margin = 'auto';}  
 
     else {Element.style.transform = 'scale(3)';Element.style.position = ''; Element.style.left = ''; 
